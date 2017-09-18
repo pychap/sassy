@@ -1,0 +1,28 @@
+{
+  "name": "techchops",
+  "description": "This is a Lynda.com course on SAAS",
+  "main": "index.html",
+  "authors": [
+    "Peter Y. Chapman"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Peter"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^3.0.0",
+    "normalize-css": "^7.0.0"
+  },
+  "dependencies": {
+    "normalize-css": "^7.0.0"
+  }
+}
