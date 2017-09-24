@@ -1,3 +1,62 @@
-p {
-  color: $brown;
+body {
+  font-family: $sans-serif;
+  line-height: 1.6rem;
+  color: $dark-brown;
+  font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+}
+// forms
+#{$all-text-inputs} {
+  border: 1px solid $gray;
+  padding: .5rem;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover} {
+  border: 1px solid #0f0;
+}
+
+#{$all-text-inputs-active} {
+  border: 1px solid #00f;
+}
+// buttons
+#{$all-buttons} {
+  background-color: $light-greenish;
+  border: 1px $gray;
+  border-radius: 3px;
+  padding: .5rem;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover} {
+  background-color: #0f0;
+}
+
+#{$all-buttons-active} {
+  background-color: #00f;
+}
+
+
+
+
+
+nav {
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: 0 10px;
+
+    &:hover {
+      color: $green;
+    }
+  }
 }
