@@ -8,6 +8,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif; }
 
+h1 {
+  font-size: 1.875em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.313em; }
+
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   border: 1px solid #f6f6f6;
   padding: .5rem; }
@@ -72,3 +81,22 @@ nav a {
 
 .header-nav a {
   color: #e4e6c3; }
+
+.hero .overlay {
+  background: rgba(240, 93, 35, 0.5); }
+
+.hero {
+  text-align: center; }
+
+.hero .wrap {
+  padding: 60px 0; }
+
+.feature img {
+  border-radius: 13px;
+  height: auto;
+  width: 250px; }
+
+.photo img {
+  border-radius: 13px;
+  height: 150px;
+  width: 150px; }
